@@ -69,12 +69,6 @@ nav ul{
     text-decoration: none;
 }
 
-
-
-
-
-
-
 .container-img-centrale {
     background-image: url("/img/jumbo.png");
     height: 700px;
@@ -82,11 +76,65 @@ nav ul{
     position: relative;
 }
 
-
 .img-container {
     position: absolute;
-
-
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    display: inline-block;
 }
 
+.img-text-container {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+.img-container h2 {
+    font-size: 70px;
+    color: white;
+    text-align: center;
+}
+
+.botton-container {
+    position: absolute;
+    width: 80%;
+    margin: auto;
+    bottom: 100px;
+    right: -27%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.botton-container a {
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.botton-container a:first-child {
+    margin-right: 50px;
+    background-color: white;
+    padding: 5px 10px;
+}
+
+.botton-container a:last-child {
+    background-color:violet;
+    padding: 5px 10px;
+}
+
+a:hover {
+    color: blue;
+}
+
+#container-block_1 {
+    height: 700px;
+}
+
+.img-block {
+    float: left;
+    background-image: url("/img/item1.svg");
+    
+}
 
