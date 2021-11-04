@@ -4,10 +4,89 @@
     box-sizing: border-box;
 }
 
-.header-container {
-    
+.header-container
+{
+    background-color:blue;
+    height: 70px;
+    line-height: 70px;
 }
 
-div.#logo {
-    display: inline-block;
+#container-logo,
+#main-nav
+{
+    float:left;
 }
+
+.botton-right
+{
+    float:right;
+    width: 20%;
+    text-align: right;
+}
+
+.clearfix::after{
+    content:'';
+    clear:both;
+    display:table;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+
+#main-nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#main-nav {
+    width: 60%;
+}
+
+#main-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#container-logo a img {
+    vertical-align: middle;
+}
+
+#container-logo {
+    width: 20%;
+}
+
+.botton-right a {
+    padding: 5px 20px;
+    background-color: white;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.container-img-centrale {
+    background-image: url("/img/jumbo.png");
+    height: 700px;
+    background-size: cover;
+    position: relative;
+}
+
+
+.img-container {
+    position: absolute;
+
+
+}
+
+
