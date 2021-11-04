@@ -4,4 +4,10 @@
     box-sizing: border-box;
 }
 
- 
+.header-container {
+    
+}
+
+div.#logo {
+    display: inline-block;
+}
