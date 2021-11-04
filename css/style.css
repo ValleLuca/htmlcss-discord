@@ -128,13 +128,28 @@ a:hover {
     color: blue;
 }
 
-#container-block_1 {
-    height: 700px;
-}
-
-.img-block {
-    float: left;
-    background-image: url("/img/item1.svg");
+.container-block_1 {
+    height: 500px;
+    margin-top: 150px;
+    position: relative;
+    border-bottom: 5px grey solid;
     
 }
 
+.img-block {
+    position: absolute;
+    left: 200px;
+}
+
+.test-logo {
+    position: absolute;
+    right: 600px;
+}
+
+.test-logo h2 {
+    font-size: 40px;
+}
+
+.test-logo p {
+    font-size: 25px;
+}
