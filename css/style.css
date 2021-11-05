@@ -75,7 +75,7 @@ nav ul{
 }
 
 .container-img-centrale {
-    background-image: url("/img/jumbo.png");
+    background-image: url("img/jumbo.png");
     height: 700px;
     background-size: cover;
     position: relative;
