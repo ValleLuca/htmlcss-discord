@@ -75,7 +75,7 @@ nav ul{
 }
 
 .container-img-centrale {
-    background-image: url("img/jumbo.png");
+    background-image: url("../img/jumbo.png");
     height: 700px;
     background-size: cover;
     position: relative;
@@ -129,6 +129,10 @@ nav ul{
     background-color:black;
     padding: 5px 10px;
     color: white;
+}
+
+.botton-container a {
+    color: blue;
 }
 
 a:hover {
